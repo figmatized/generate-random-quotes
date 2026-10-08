@@ -1,0 +1,38 @@
+body {
+  background-image: url('19496.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Times New Roman', Times, serif;
+  color: hwb(0 100% 0%);
+  letter-spacing: 1.5px;
+}
+
+
+.body {
+    background-color:hsla(180, 35%, 66%, 0.455);
+    border-radius: 5px; 
+    padding: 40px; 
+    width: 350px;
+}
+
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: hwb(250 15% 68% / 0.611);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(257, 32%, 53%, 0.69);
+}
